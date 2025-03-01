@@ -1,10 +1,10 @@
 import pygame
 pygame.init()
-from all_colors import *
+from colours import *
 import pygame.mixer
 pygame.mixer.init()
 
-pygame.mixer.music.load('resources/Hydrogen.mp3')
+pygame.mixer.music.load('resources/party.mp3')
 
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_volume(0.3)
@@ -23,7 +23,7 @@ pygame.display.set_caption("новая игра")
 BACKGROUND = (255, 255, 255)
 screen.fill(BACKGROUND)
 COLORS = [BLACK, WHITE, RED, GREEN, YELLOW, CYAN, MAGENTA, GRAY,
-          ORANGE, PINK, BROWN, PURPLE, LIME, NAVY, OLIVE, MAROON, TEAL, COLD]
+          ORANGE, PINK, BROWN, PURPLE, LIME, NAVY, OLIVE, MAROON, TEAL]
 
 screen_rect = screen.get_rect()
 
